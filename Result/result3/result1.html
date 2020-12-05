@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+</head>
+<body>
+
+        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="064c2043cbd64b5d914499f9e0e92d8b" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > 美国各州疫情一览</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>State name</th>
+            <th>Total cases</th>
+            <th>Total deaths</th>
+            <th>Death rate</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>New York</td>
+            <td>1431028</td>
+            <td>113748</td>
+            <td>0.0795</td>
+        </tr>
+        <tr>
+            <td>New Jersey</td>
+            <td>596148</td>
+            <td>42344</td>
+            <td>0.071</td>
+        </tr>
+        <tr>
+            <td>Illinois</td>
+            <td>393192</td>
+            <td>17596</td>
+            <td>0.0448</td>
+        </tr>
+        <tr>
+            <td>Massachusetts</td>
+            <td>351700</td>
+            <td>23752</td>
+            <td>0.0675</td>
+        </tr>
+        <tr>
+            <td>California</td>
+            <td>335924</td>
+            <td>13688</td>
+            <td>0.0407</td>
+        </tr>
+        <tr>
+            <td>Pennsylvania</td>
+            <td>269616</td>
+            <td>18700</td>
+            <td>0.0694</td>
+        </tr>
+        <tr>
+            <td>Michigan</td>
+            <td>209348</td>
+            <td>20068</td>
+            <td>0.0959</td>
+        </tr>
+        <tr>
+            <td>Texas</td>
+            <td>204320</td>
+            <td>5620</td>
+            <td>0.0275</td>
+        </tr>
+        <tr>
+            <td>Florida</td>
+            <td>187744</td>
+            <td>8204</td>
+            <td>0.0437</td>
+        </tr>
+        <tr>
+            <td>Maryland</td>
+            <td>166656</td>
+            <td>8324</td>
+            <td>0.0499</td>
+        </tr>
+        <tr>
+            <td>Connecticut</td>
+            <td>153720</td>
+            <td>13888</td>
+            <td>0.0903</td>
+        </tr>
+        <tr>
+            <td>Georgia</td>
+            <td>148856</td>
+            <td>6600</td>
+            <td>0.0443</td>
+        </tr>
+        <tr>
+            <td>Louisiana</td>
+            <td>140644</td>
+            <td>10324</td>
+            <td>0.0734</td>
+        </tr>
+        <tr>
+            <td>Virginia</td>
+            <td>128580</td>
+            <td>4164</td>
+            <td>0.0324</td>
+        </tr>
+        <tr>
+            <td>Indiana</td>
+            <td>117608</td>
+            <td>7296</td>
+            <td>0.062</td>
+        </tr>
+        <tr>
+            <td>Ohio</td>
+            <td>115812</td>
+            <td>6880</td>
+            <td>0.0594</td>
+        </tr>
+        <tr>
+            <td>Colorado</td>
+            <td>89816</td>
+            <td>5028</td>
+            <td>0.056</td>
+        </tr>
+        <tr>
+            <td>Washington</td>
+            <td>80252</td>
+            <td>4168</td>
+            <td>0.0519</td>
+        </tr>
+        <tr>
+            <td>North Carolina</td>
+            <td>79048</td>
+            <td>2844</td>
+            <td>0.036</td>
+        </tr>
+        <tr>
+            <td>Tennessee</td>
+            <td>73204</td>
+            <td>1204</td>
+            <td>0.0164</td>
+        </tr>
+        <tr>
+            <td>Minnesota</td>
+            <td>68152</td>
+            <td>3028</td>
+            <td>0.0444</td>
+        </tr>
+        <tr>
+            <td>Iowa</td>
+            <td>61184</td>
+            <td>1468</td>
+            <td>0.024</td>
+        </tr>
+        <tr>
+            <td>Arizona</td>
+            <td>58264</td>
+            <td>2816</td>
+            <td>0.0483</td>
+        </tr>
+        <tr>
+            <td>Wisconsin</td>
+            <td>52004</td>
+            <td>1868</td>
+            <td>0.0359</td>
+        </tr>
+        <tr>
+            <td>Rhode Island</td>
+            <td>51804</td>
+            <td>2128</td>
+            <td>0.0411</td>
+        </tr>
+        <tr>
+            <td>Alabama</td>
+            <td>49504</td>
+            <td>2016</td>
+            <td>0.0407</td>
+        </tr>
+        <tr>
+            <td>Mississippi</td>
+            <td>46816</td>
+            <td>2216</td>
+            <td>0.0473</td>
+        </tr>
+        <tr>
+            <td>Missouri</td>
+            <td>45476</td>
+            <td>2532</td>
+            <td>0.0557</td>
+        </tr>
+        <tr>
+            <td>Nebraska</td>
+            <td>43384</td>
+            <td>544</td>
+            <td>0.0125</td>
+        </tr>
+        <tr>
+            <td>South Carolina</td>
+            <td>36224</td>
+            <td>1596</td>
+            <td>0.0441</td>
+        </tr>
+        <tr>
+            <td>Kansas</td>
+            <td>33952</td>
+            <td>772</td>
+            <td>0.0227</td>
+        </tr>
+        <tr>
+            <td>Kentucky</td>
+            <td>32820</td>
+            <td>1476</td>
+            <td>0.045</td>
+        </tr>
+        <tr>
+            <td>Delaware</td>
+            <td>32148</td>
+            <td>1216</td>
+            <td>0.0378</td>
+        </tr>
+        <tr>
+            <td>Utah</td>
+            <td>30120</td>
+            <td>352</td>
+            <td>0.0117</td>
+        </tr>
+        <tr>
+            <td>District of Columbia</td>
+            <td>29736</td>
+            <td>1600</td>
+            <td>0.0538</td>
+        </tr>
+        <tr>
+            <td>Nevada</td>
+            <td>28680</td>
+            <td>1492</td>
+            <td>0.052</td>
+        </tr>
+        <tr>
+            <td>New Mexico</td>
+            <td>24768</td>
+            <td>1104</td>
+            <td>0.0446</td>
+        </tr>
+        <tr>
+            <td>Oklahoma</td>
+            <td>21956</td>
+            <td>1176</td>
+            <td>0.0536</td>
+        </tr>
+        <tr>
+            <td>Arkansas</td>
+            <td>19692</td>
+            <td>408</td>
+            <td>0.0207</td>
+        </tr>
+        <tr>
+            <td>South Dakota</td>
+            <td>16340</td>
+            <td>184</td>
+            <td>0.0113</td>
+        </tr>
+        <tr>
+            <td>Oregon</td>
+            <td>14904</td>
+            <td>560</td>
+            <td>0.0376</td>
+        </tr>
+        <tr>
+            <td>New Hampshire</td>
+            <td>14884</td>
+            <td>728</td>
+            <td>0.0489</td>
+        </tr>
+        <tr>
+            <td>Puerto Rico</td>
+            <td>11220</td>
+            <td>496</td>
+            <td>0.0442</td>
+        </tr>
+        <tr>
+            <td>Idaho</td>
+            <td>9904</td>
+            <td>308</td>
+            <td>0.0311</td>
+        </tr>
+        <tr>
+            <td>North Dakota</td>
+            <td>7976</td>
+            <td>180</td>
+            <td>0.0226</td>
+        </tr>
+        <tr>
+            <td>Maine</td>
+            <td>6964</td>
+            <td>292</td>
+            <td>0.0419</td>
+        </tr>
+        <tr>
+            <td>West Virginia</td>
+            <td>6056</td>
+            <td>272</td>
+            <td>0.0449</td>
+        </tr>
+        <tr>
+            <td>Guam</td>
+            <td>4492</td>
+            <td>24</td>
+            <td>0.0053</td>
+        </tr>
+        <tr>
+            <td>Vermont</td>
+            <td>3776</td>
+            <td>216</td>
+            <td>0.0572</td>
+        </tr>
+        <tr>
+            <td>Wyoming</td>
+            <td>3104</td>
+            <td>40</td>
+            <td>0.0129</td>
+        </tr>
+        <tr>
+            <td>Hawaii</td>
+            <td>2524</td>
+            <td>68</td>
+            <td>0.0269</td>
+        </tr>
+        <tr>
+            <td>Montana</td>
+            <td>1884</td>
+            <td>64</td>
+            <td>0.034</td>
+        </tr>
+        <tr>
+            <td>Alaska</td>
+            <td>1596</td>
+            <td>32</td>
+            <td>0.0201</td>
+        </tr>
+        <tr>
+            <td>Virgin Islands</td>
+            <td>276</td>
+            <td>24</td>
+            <td>0.087</td>
+        </tr>
+        <tr>
+            <td>Northern Mariana Islands</td>
+            <td>84</td>
+            <td>8</td>
+            <td>0.0952</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+
+</body>
+</html>
